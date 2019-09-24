@@ -1,0 +1,15 @@
+html{
+    background-color:lightblue;
+}
+
+body{
+    text-align:center;
+    background-color: aliceblue;
+    padding:20px;
+}
+.tragedy{
+    border:solid;
+    background-color:white;
+   padding: 15px;
+   font-size:20px;
+}

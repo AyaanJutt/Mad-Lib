@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mad libs</title>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <h1>Mad Lib</h1>
+        <hr>
+        <h2>Mad Lib Instructions</h2>
+        <p>Fill in all the input boxes, then click the 'Mad Lib' button</p>
+            Noun <input type='text' id='noun'></input>
+            <br>
+            Plural Noun <input type='text' id='pNoun'></input>
+            <br>
+            Noun <input type='text' id='noun2'></input>
+            <br>
+            Adjective <input type='text' id='adj'></input>
+            <br>
+            Verb ending in 'ing' <input type='text' id='ving'></input>
+            <br>
+            Verb <input type='text' id='verb'></input>
+            <br>
+        <button id='madLib'>Mad Lib</button>
+        <hr>
+        <h2>Mad Lib Results</h2>
+        <p class='tragedy'>Did you ever hear the tragedy of Darth Plagueis the 
+            <span id='nounReplacement'>Wise</span>?
+             I thought not, it's not a story any 
+             <span id='adjReplacement'>filthy</span> Jedi would tell you.
+             It's a Sith legend.
+              Darth Plagueis was a Dark Lord
+             of the Sith, so <span id='pNounReplacement'>powerful</span> and 
+             so <span id='nounReplacement2'>wise</span> he could influence the 
+             midichlorians to create life… He had such a knowledge of the 
+             dark side that he could even keep the ones he cared about from 
+             <span id='vingReplacement'>dy</span>ing. 
+             The dark side of the Force is a pathway to many abilities some consider to be unnatural. 
+             He became so powerful… the only thing he was afraid of was losing his power, which eventually, 
+             of course, he did. Unfortunately, he taught his apprentice everything he knew, then his 
+             apprentice <span id='verbReplacement'>killed</span> him in his sleep. Ironic. 
+             He could save others from death, but not himself.
+        </p>
+        <script src='main.js'></script>
+    </body>
+</html>
